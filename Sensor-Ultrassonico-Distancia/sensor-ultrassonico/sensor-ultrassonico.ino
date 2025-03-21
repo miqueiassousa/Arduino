@@ -1,6 +1,6 @@
 // Definindo os pinos do sensor
-const int trigPin = 9;
-const int echoPin = 10;
+const int trigPin = 4;
+const int echoPin = 5;
 
 void setup() {
   // Inicializando a comunicação serial
