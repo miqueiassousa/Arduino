@@ -1,4 +1,4 @@
-const int ledPin = 2;     // Pino do LED
+const int ledPin = A5;     // Pino do LED
 const int botaoPin = 8;   // Pino do botão
 int estadoBotao = 0;      // Variável para armazenar o estado do botão
 
