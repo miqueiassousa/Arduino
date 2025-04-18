@@ -1,5 +1,5 @@
 // Definindo os pinos do sensor
-const int trigPin = 4;
+const int trigPin = 6;
 const int echoPin = 5;
 
 void setup() {
@@ -12,6 +12,7 @@ void setup() {
 }
 
 void loop() {
+  
   // Limpa o pino trig
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
