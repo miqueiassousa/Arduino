@@ -10,9 +10,9 @@ void setup() {
 void loop() {
     estadoBotao = digitalRead(botaoPin); // Lê o estado do botão
     
-    if (estadoBotao == HIGH) { 
+  
         digitalWrite(ledPin, HIGH); // Acende o LED se o botão for pressionado
-    } else {
+  
         digitalWrite(ledPin, LOW);  // Apaga o LED se soltar o botão
     }
 }
